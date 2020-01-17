@@ -1,7 +1,9 @@
 language: swift
+osx_image: xcode11.3
 xcode_project: prova.xcodeproj # path to your xcodeproj folder
 xcode_scheme: prova
 script:
+- install bundle
 - fastlane hola
 - fastlane build
 - fastlane pepito
