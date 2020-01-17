@@ -1,0 +1,7 @@
+language: swift
+xcode_project: prova.xcodeproj # path to your xcodeproj folder
+xcode_scheme: prova
+script:
+- fastlane hola
+- fastlane build
+- fastlane pepito
