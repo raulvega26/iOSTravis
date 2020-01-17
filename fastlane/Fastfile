@@ -14,6 +14,10 @@
 update_fastlane
 cocoapods
 
+before_all do
+  ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
+end
+
 default_platform(:ios)
 
 platform :ios do
